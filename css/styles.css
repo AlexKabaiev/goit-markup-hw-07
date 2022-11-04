@@ -1,68 +1,5 @@
-/* Header */
 
 
-/* Навигация в шапке */
-
-/* Стилизация логотипа шапки*/
-
-
-/* Навигация по страницам */
-
-
-
-
-/* Стилизация главной секции */
-.hero {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 200px 0;
-  background-image: var(--overlay), url('../images/header-img.jpg');
-  background-color: var(--color-background-hero);
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-}
-
-/*Стилизация основного заголовка */
-.hero-title {
-  width: 696px;
-  margin: 0 auto 30px auto;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--color-white);
-}
-
-/* Стилизация кнопки заказа услуги */
-.hero-button {
-  display: block;
-  width: 216px;
-  height: 50px;
-  border: 0;
-  border-radius: 4px;
-  margin: 0 auto;
-
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--color-white);
-  background-color: var(--color-accent);
-  cursor: pointer;
-  transition: background-color 250ms var(--timing-function);
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: rgba(33, 150, 243, 0.6);
-}
 
 /* Стилизация секции особенности */
 
@@ -272,7 +209,7 @@
 }
 
 /* Стилизация кнопок на странице Портфолио */
-.menu {
+.portfolio {
   padding: 94px 0;
 }
 
@@ -282,11 +219,11 @@
   margin-bottom: 50px;
 }
 
-.list-button>.menu-item:not(:last-child) {
+.list-button>.portfolio-item:not(:last-child) {
   margin-right: 8px;
 }
 
-.menu-button {
+.portfolio-button {
   padding: 6px 22px;
   height: 38px;
   font-family: 'Roboto';
@@ -303,8 +240,8 @@
   transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
 
-.menu-button:hover,
-.menu-button:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: var(--color-white);
   background-color: var(--color-accent);
 }
