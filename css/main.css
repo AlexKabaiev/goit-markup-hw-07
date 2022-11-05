@@ -55,6 +55,33 @@ section {
   margin: -1px;
 }
 
+.address {
+  font-style: normal;
+}
+
+.address_list > .address_item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address_map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.address_mail,
+.address_tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
 .button {
   font-family: "Roboto";
   font-weight: 700;
@@ -165,6 +192,11 @@ section {
 .footer__logo {
   display: block;
   margin-bottom: 20px;
+}
+
+.footer__boxes {
+  display: flex;
+  align-items: baseline;
 }
 
 .header {
@@ -455,13 +487,6 @@ section {
   border: 0;
   border-radius: 4px;
   margin: 0 auto;
-  background-color: var(--color-accent);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--color-white);
-  cursor: pointer;
 }
 
 .subscribe-form__icon {
