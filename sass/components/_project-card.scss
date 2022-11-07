@@ -8,6 +8,11 @@
   width: 370px;
   background: var(--color-white);
   transition: box-shadow 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .project-card__thumb {
@@ -34,12 +39,6 @@
 
 .project-card__item:hover .project-card__description {
   transform: translateY(0);
-}
-
-.project-card__item:hover,
-.project-card__item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-card__name {

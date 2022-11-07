@@ -23,10 +23,11 @@
   border-radius: 4px;
   cursor: pointer;
   transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
-}
-
-.filter__button:hover,
-.filter__button:focus {
+  &:hover,
+  &:focus {
   color: var(--color-white);
   background-color: var(--color-accent);
+  }
 }
+
+

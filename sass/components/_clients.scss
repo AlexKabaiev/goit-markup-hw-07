@@ -25,10 +25,12 @@
   border: 1px solid var(--color-gray-icons);
   fill: var(--color-gray-icons);
   transition: border-color 250ms var(--timing-function), fill 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+    border-color: var(--color-accent);
+    fill: var(--color-accent);
+  }
 }
 
-.clients__link:hover,
-.clients__link:focus {
-  border-color: var(--color-accent);
-  fill: var(--color-accent);
-}
+
+

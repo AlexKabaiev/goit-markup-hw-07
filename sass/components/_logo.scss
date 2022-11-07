@@ -6,15 +6,13 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--color-accent);
+  &--black-part {
+    color: var(--color-black);
+  }
 
-
-&--black-part {
-  color: var(--color-black);
-}
-
-&--white-part {
-  color: var(--color-white);
-}
+  &--white-part {
+    color: var(--color-white);
+  }
 }
 
 
